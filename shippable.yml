@@ -1,13 +1,16 @@
+build_image: drydock/u12nodall:tip
+
 language: node_js
 
-build_image: drydock/u12nodpls:tip
 node_js:
   - "0.10"
+
+addons:
+ firefox: "39.0"
+ selenium: "2.42"
 
 services:
   - selenium
 
 script:
  - xvfb-run --server-args="-ac" npm test
- 
-
