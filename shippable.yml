@@ -1,9 +1,10 @@
-build_image: drydock/u12nodall:tip
+#build_image: drydock/u12nodall:tip
 
 language: node_js
 
 node_js:
   - "0.10"
+build_image: drydock/u12nodpls:tip
 
 addons:
  firefox: "39.0"
