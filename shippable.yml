@@ -1,7 +1,7 @@
 build_image: drydock/u14nodpls:tip
 
 language: node_js
-
+build_image: drydock/u12nodpls:tip`
 node_js:
   - "0.10"
 
