@@ -10,3 +10,4 @@ services:
 
 script:
  - xvfb-run --server-args="-ac" npm test
+ 
